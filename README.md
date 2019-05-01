@@ -30,3 +30,5 @@ npm install @ngx-translate/core @ngx-translate/http-loader rxjs --save
 https://github.com/ngx-translate/core
 https://github.com/ngx-translate/http-loader
 https://stackblitz.com/github/ngx-translate/example?file=src%2Fapp%2Fapp.component.ts
+
+ng generate module app-routing --flat --module=app

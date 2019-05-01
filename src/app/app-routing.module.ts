@@ -4,8 +4,12 @@ import {HomeComponent} from './home/home.component';
 import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent }
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: 'home', component: HomeComponent},
+  {
+    path: 'intervenant',
+    loadChildren: 'app/intervenant/intervenant.module#IntervenantModule'
+  }
 ];
 
 @NgModule({
@@ -16,4 +20,5 @@ const routes: Routes = [
   ],
   declarations: []
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

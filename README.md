@@ -33,3 +33,7 @@ https://stackblitz.com/github/ngx-translate/example?file=src%2Fapp%2Fapp.compone
 
 ng generate module app-routing --flat --module=app
 ng generate c Home
+ng generate module Intervenant --routing
+
+ng g c Intervenant -m intervenant
+

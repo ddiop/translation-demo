@@ -36,4 +36,6 @@ ng generate c Home
 ng generate module Intervenant --routing
 
 ng g c Intervenant -m intervenant
+ng g m Shared 
+ng g c Shared -m Shared
 

@@ -32,3 +32,4 @@ https://github.com/ngx-translate/http-loader
 https://stackblitz.com/github/ngx-translate/example?file=src%2Fapp%2Fapp.component.ts
 
 ng generate module app-routing --flat --module=app
+ng generate c Home
